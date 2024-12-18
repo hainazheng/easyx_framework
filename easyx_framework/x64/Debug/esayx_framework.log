@@ -1,0 +1,6 @@
+﻿  World.cpp
+F:\vc\project\esayx_framework\esayx_framework\Struct.h(75,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“World.cpp”)
+  
+F:\vc\project\esayx_framework\esayx_framework\World.cpp(15,5): warning C4356: “base::tag”: 静态数据成员无法通过派生类初始化
+  esayx_framework.vcxproj -> F:\vc\project\esayx_framework\x64\Debug\esayx_framework.exe

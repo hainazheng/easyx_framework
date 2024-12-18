@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="project">
+      <UniqueIdentifier>{d45b2248-ac1f-477d-8f57-7e5fa6b34fef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{dec58aad-de79-49e2-ad13-d4d4b26f1c51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Engine\源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="project\base">
+      <UniqueIdentifier>{1dd33363-e074-4f87-8f2a-6af0b7d705a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="project\pea">
+      <UniqueIdentifier>{9a641621-49da-4bb1-9afd-9349750dc974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="project\plant">
+      <UniqueIdentifier>{ff54caa5-f5f2-400c-9b67-2f55281a387f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="project\zomble">
+      <UniqueIdentifier>{031f5b39-9d11-49dd-b2a8-7ad56e9d8538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="project\level">
+      <UniqueIdentifier>{9f27987e-cc9e-4e59-b6f4-ad178bb4b218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="project\sun">
+      <UniqueIdentifier>{6915837e-bcb5-4434-81de-5f747dd83332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="project\rain">
+      <UniqueIdentifier>{35b72097-7017-47de-b98d-16cea2365e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component">
+      <UniqueIdentifier>{2da4c90f-eddb-4e21-90ec-7904c04dfc96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\UI">
+      <UniqueIdentifier>{ff9cb4b1-c61a-4e4e-b494-a6c1b6520d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Object">
+      <UniqueIdentifier>{70dd330d-3bcb-462c-af2a-cd1b66fdc3ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core">
+      <UniqueIdentifier>{d34aa418-0144-41e6-82cc-40f3498df050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Cfg">
+      <UniqueIdentifier>{e94a6f6d-aabc-4a33-a4ff-c7b03f2b8e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Tools">
+      <UniqueIdentifier>{d6540457-c225-4c48-9b9a-5ffc63b1d506}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BattleController.h">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Engine\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStatics.h">
+      <Filter>Engine\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Engine\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="TestObject.h">
+      <Filter>Engine\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="sun.h">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="plateform.h">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="BasePlant.h">
+      <Filter>project\base</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseBullets.h">
+      <Filter>project\base</Filter>
+    </ClInclude>
+    <ClInclude Include="pea.h">
+      <Filter>project\pea</Filter>
+    </ClInclude>
+    <ClInclude Include="PeaShooter.h">
+      <Filter>project\plant</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseZomble.h">
+      <Filter>project\base</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalZomble.h">
+      <Filter>project\zomble</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleLevel.h">
+      <Filter>project\level</Filter>
+    </ClInclude>
+    <ClInclude Include="zomblestatus.h">
+      <Filter>project\zomble</Filter>
+    </ClInclude>
+    <ClInclude Include="sunflower.h">
+      <Filter>project\plant</Filter>
+    </ClInclude>
+    <ClInclude Include="gameSun.h">
+      <Filter>project\sun</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUI.h">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="SeedUI.h">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>project\level</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Engine\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelManager.h">
+      <Filter>Engine\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>Engine\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Engine\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegate.h">
+      <Filter>Engine\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderManager.h">
+      <Filter>Engine\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="RainProducer.h">
+      <Filter>project\rain</Filter>
+    </ClInclude>
+    <ClInclude Include="Animated.h">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreMinimal.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Engine\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Configurator.h">
+      <Filter>Engine\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Perlin.h">
+      <Filter>Engine\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioPlayer.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="InputComponent.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualInterface.h">
+      <Filter>Engine\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="widgets.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneComponent.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CondiEdge.h">
+      <Filter>Engine\Tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BattleController.cpp">
+      <Filter>project</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Engine\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStatics.cpp">
+      <Filter>Engine\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="NewStatus.h">
+      <Filter>project</Filter>
+    </ClCompile>
+    <ClCompile Include="BasePlant.cpp">
+      <Filter>project\base</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseBullets.cpp">
+      <Filter>project\base</Filter>
+    </ClCompile>
+    <ClCompile Include="PeaShooter.cpp">
+      <Filter>project\plant</Filter>
+    </ClCompile>
+    <ClCompile Include="pea.cpp">
+      <Filter>project\pea</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseZomble.cpp">
+      <Filter>project\base</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleLevel.cpp">
+      <Filter>project\level</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalZomble.cpp">
+      <Filter>project\zomble</Filter>
+    </ClCompile>
+    <ClCompile Include="sunflower.cpp">
+      <Filter>project\plant</Filter>
+    </ClCompile>
+    <ClCompile Include="gameSun.cpp">
+      <Filter>project\sun</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUI.cpp">
+      <Filter>project</Filter>
+    </ClCompile>
+    <ClCompile Include="SeedUI.cpp">
+      <Filter>project</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>project\level</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Engine\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelManager.cpp">
+      <Filter>Engine\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>Engine\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Engine\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderManager.cpp">
+      <Filter>Engine\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="RainProducer.cpp">
+      <Filter>project\rain</Filter>
+    </ClCompile>
+    <ClCompile Include="Animated.cpp">
+      <Filter>project</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Engine\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Configurator.cpp">
+      <Filter>Engine\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioPlayer.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="InputComponent.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualInterface.cpp">
+      <Filter>Engine\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="widgets.cpp">
+      <Filter>Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface.cpp">
+      <Filter>Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FSM.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Engine\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Engine\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneComponent.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Engine\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CondiEdge.cpp">
+      <Filter>Engine\Tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Configurator.cfg">
+      <Filter>Engine\Cfg</Filter>
+    </None>
+  </ItemGroup>
+</Project>
