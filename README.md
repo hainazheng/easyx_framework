@@ -16,6 +16,7 @@
 - 3.写level的子类，在关卡管理器中进行加载，及设置当前关卡
 - 4.controller类的子类
 
+##@remark 还在更新现在版本为中间版本（部分功能未测试），本人学生较忙，不定期扩展修改项目，敬请见谅。
 ***
 ### 项目文档
 >**想要观看文档请点击[项目文档](https://hainazheng.github.io/Easyx_framework-document/html/index.html)**
