@@ -1,365 +1,525 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="资源文件">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Src">
+      <UniqueIdentifier>{0D23880B-792C-887C-02A8-9E7C6EB0937C}</UniqueIdentifier>
     </Filter>
-    <Filter Include="project">
-      <UniqueIdentifier>{d45b2248-ac1f-477d-8f57-7e5fa6b34fef}</UniqueIdentifier>
+    <Filter Include="Src\Engine">
+      <UniqueIdentifier>{F27CE08C-DE34-22DA-473C-FB353313BDCA}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Engine">
-      <UniqueIdentifier>{dec58aad-de79-49e2-ad13-d4d4b26f1c51}</UniqueIdentifier>
+    <Filter Include="Src\Engine\Cfg">
+      <UniqueIdentifier>{5196F4D1-3D64-E8D7-26F8-58FE1265C43C}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Engine\头文件">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="Src\Engine\Component">
+      <UniqueIdentifier>{D4AB409D-C03A-CA66-6959-DE6155C7DA0C}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Engine\源文件">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Src\Engine\Core">
+      <UniqueIdentifier>{8A888710-F613-F5D4-FF24-78C96B2F51D5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="project\base">
-      <UniqueIdentifier>{1dd33363-e074-4f87-8f2a-6af0b7d705a5}</UniqueIdentifier>
+    <Filter Include="Src\Engine\Object">
+      <UniqueIdentifier>{38269A6B-A43C-9801-EDB3-232359096989}</UniqueIdentifier>
     </Filter>
-    <Filter Include="project\pea">
-      <UniqueIdentifier>{9a641621-49da-4bb1-9afd-9349750dc974}</UniqueIdentifier>
+    <Filter Include="Src\Engine\Tools">
+      <UniqueIdentifier>{F22EAC22-DE27-CB74-075A-B0F9F3B1AA80}</UniqueIdentifier>
     </Filter>
-    <Filter Include="project\plant">
-      <UniqueIdentifier>{ff54caa5-f5f2-400c-9b67-2f55281a387f}</UniqueIdentifier>
+    <Filter Include="Src\Engine\Ui">
+      <UniqueIdentifier>{FF826425-6B43-E05B-347E-29D9A0FD2438}</UniqueIdentifier>
     </Filter>
-    <Filter Include="project\zomble">
-      <UniqueIdentifier>{031f5b39-9d11-49dd-b2a8-7ad56e9d8538}</UniqueIdentifier>
+    <Filter Include="Src\Project">
+      <UniqueIdentifier>{53849681-BF39-0F77-482E-094EB4E2057B}</UniqueIdentifier>
     </Filter>
-    <Filter Include="project\level">
-      <UniqueIdentifier>{9f27987e-cc9e-4e59-b6f4-ad178bb4b218}</UniqueIdentifier>
+    <Filter Include="Src\Project\Base">
+      <UniqueIdentifier>{BD8C5D9D-A985-7CEF-D2B7-6174BE0F5CFB}</UniqueIdentifier>
     </Filter>
-    <Filter Include="project\sun">
-      <UniqueIdentifier>{6915837e-bcb5-4434-81de-5f747dd83332}</UniqueIdentifier>
+    <Filter Include="Src\Project\Level">
+      <UniqueIdentifier>{1A58C649-866E-C4DF-CFE5-4F013B3B9567}</UniqueIdentifier>
     </Filter>
-    <Filter Include="project\rain">
-      <UniqueIdentifier>{35b72097-7017-47de-b98d-16cea2365e7f}</UniqueIdentifier>
+    <Filter Include="Src\Project\Object">
+      <UniqueIdentifier>{79F65389-65DA-14DF-CE3A-0F32BA3DFF60}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Engine\Component">
-      <UniqueIdentifier>{2da4c90f-eddb-4e21-90ec-7904c04dfc96}</UniqueIdentifier>
+    <Filter Include="Src\Project\Particle">
+      <UniqueIdentifier>{B6D52EE1-A264-B8AA-4B83-CCA537F1C850}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Engine\UI">
-      <UniqueIdentifier>{ff9cb4b1-c61a-4e4e-b494-a6c1b6520d69}</UniqueIdentifier>
+    <Filter Include="Src\Project\Sun">
+      <UniqueIdentifier>{38AC31B7-A437-9F7B-AD48-22701953FB7B}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Engine\Object">
-      <UniqueIdentifier>{70dd330d-3bcb-462c-af2a-cd1b66fdc3ef}</UniqueIdentifier>
+    <Filter Include="Src\Project\Ui">
+      <UniqueIdentifier>{C05A666A-AC28-5A70-95BC-CA96812936D5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Engine\Core">
-      <UniqueIdentifier>{d34aa418-0144-41e6-82cc-40f3498df050}</UniqueIdentifier>
+    <Filter Include="plugin">
+      <UniqueIdentifier>{140E0515-00B0-2FEB-E96A-433FD5ABB63B}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Engine\Cfg">
-      <UniqueIdentifier>{e94a6f6d-aabc-4a33-a4ff-c7b03f2b8e19}</UniqueIdentifier>
+    <Filter Include="plugin\GLFW">
+      <UniqueIdentifier>{D3B57FDA-3F6B-F8CF-C85F-F2A63414EFD3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Engine\Tools">
-      <UniqueIdentifier>{d6540457-c225-4c48-9b9a-5ffc63b1d506}</UniqueIdentifier>
+    <Filter Include="plugin\GLFW\docs">
+      <UniqueIdentifier>{AB8C5467-9785-73B9-C0B7-583EAC0F53C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\GLFW\examples">
+      <UniqueIdentifier>{E140077F-CDCF-9048-76EE-A443625CA1EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\GLFW\src">
+      <UniqueIdentifier>{6A2558DC-D6B0-C5A0-DFC1-48954BCC21A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\GLFW\tests">
+      <UniqueIdentifier>{F5720253-6189-00E9-AA00-8C0A1656D170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\imgui">
+      <UniqueIdentifier>{7E5AF02C-6ABD-7FD1-1343-B887FF844B54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\imgui\docs">
+      <UniqueIdentifier>{36D4ADDC-A2EA-AB72-EB61-379457B77CFA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\imgui\examples">
+      <UniqueIdentifier>{EC557F07-58C2-3A02-21B6-D25F8DE15C6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\imgui\examples\example_android_opengl3">
+      <UniqueIdentifier>{BE154DCB-2A86-4F44-F3A4-C9CC5FD48745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\imgui\examples\example_glfw_vulkan">
+      <UniqueIdentifier>{26C5C5B5-92DF-2857-DB01-39EB475B505E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\imgui\examples\libs">
+      <UniqueIdentifier>{C56D6DFF-B17D-19D0-1A37-7EEE06660869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\imgui\examples\libs\glfw">
+      <UniqueIdentifier>{A4A4EEBC-1088-FDFC-198B-2B3985EDC34D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\imgui\examples\libs\usynergy">
+      <UniqueIdentifier>{9A209259-06DA-FC03-8F39-17DEFBF1B273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\imgui\misc">
+      <UniqueIdentifier>{19ACB2DC-85C2-B072-CE39-3C943A8F81FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\imgui\misc\cpp">
+      <UniqueIdentifier>{6B8A0810-D7F6-C30A-A0EA-5B680C16E672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\imgui\misc\debuggers">
+      <UniqueIdentifier>{C00CC637-2C1A-F41D-B500-F008210DC0D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\spdlog">
+      <UniqueIdentifier>{CCBF83E2-3880-FF18-01BB-48966D3A44F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\spdlog\bench">
+      <UniqueIdentifier>{1B8348F8-87E4-2506-1052-6CB87CB25CC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\spdlog\example">
+      <UniqueIdentifier>{A7DDD03E-134A-8C39-DC3D-24974869AEA1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin\spdlog\tests">
+      <UniqueIdentifier>{AE538EF9-1AB5-6B07-A322-B2B90F83A2C6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BattleController.h">
-      <Filter>project</Filter>
+    <ClInclude Include="Src\Engine\Component\Animator.h">
+      <Filter>Src\Engine\Component</Filter>
     </ClInclude>
-    <ClInclude Include="Math.h">
-      <Filter>Engine\Tools</Filter>
+    <ClInclude Include="Src\Engine\Component\AudioPlayer.h">
+      <Filter>Src\Engine\Component</Filter>
     </ClInclude>
-    <ClInclude Include="GameStatics.h">
-      <Filter>Engine\Tools</Filter>
+    <ClInclude Include="Src\Engine\Component\Camera.h">
+      <Filter>Src\Engine\Component</Filter>
     </ClInclude>
-    <ClInclude Include="Timer.h">
-      <Filter>Engine\Tools</Filter>
+    <ClInclude Include="Src\Engine\Component\Collider.h">
+      <Filter>Src\Engine\Component</Filter>
     </ClInclude>
-    <ClInclude Include="TestObject.h">
-      <Filter>Engine\Tools</Filter>
+    <ClInclude Include="Src\Engine\Component\Component.h">
+      <Filter>Src\Engine\Component</Filter>
     </ClInclude>
-    <ClInclude Include="sun.h">
-      <Filter>project</Filter>
+    <ClInclude Include="Src\Engine\Component\FSM.h">
+      <Filter>Src\Engine\Component</Filter>
     </ClInclude>
-    <ClInclude Include="plateform.h">
-      <Filter>project</Filter>
+    <ClInclude Include="Src\Engine\Component\InputComponent.h">
+      <Filter>Src\Engine\Component</Filter>
     </ClInclude>
-    <ClInclude Include="BasePlant.h">
-      <Filter>project\base</Filter>
+    <ClInclude Include="Src\Engine\Component\Particle.h">
+      <Filter>Src\Engine\Component</Filter>
     </ClInclude>
-    <ClInclude Include="BaseBullets.h">
-      <Filter>project\base</Filter>
+    <ClInclude Include="Src\Engine\Component\RigidBody.h">
+      <Filter>Src\Engine\Component</Filter>
     </ClInclude>
-    <ClInclude Include="pea.h">
-      <Filter>project\pea</Filter>
+    <ClInclude Include="Src\Engine\Component\SceneComponent.h">
+      <Filter>Src\Engine\Component</Filter>
     </ClInclude>
-    <ClInclude Include="PeaShooter.h">
-      <Filter>project\plant</Filter>
+    <ClInclude Include="Src\Engine\Component\SpriteRenderer.h">
+      <Filter>Src\Engine\Component</Filter>
     </ClInclude>
-    <ClInclude Include="BaseZomble.h">
-      <Filter>project\base</Filter>
+    <ClInclude Include="Src\Engine\Core\CoreMinimal.h">
+      <Filter>Src\Engine\Core</Filter>
     </ClInclude>
-    <ClInclude Include="NormalZomble.h">
-      <Filter>project\zomble</Filter>
+    <ClInclude Include="Src\Engine\Core\Macro.h">
+      <Filter>Src\Engine\Core</Filter>
     </ClInclude>
-    <ClInclude Include="BattleLevel.h">
-      <Filter>project\level</Filter>
+    <ClInclude Include="Src\Engine\Core\Signal.h">
+      <Filter>Src\Engine\Core</Filter>
     </ClInclude>
-    <ClInclude Include="zomblestatus.h">
-      <Filter>project\zomble</Filter>
+    <ClInclude Include="Src\Engine\Core\Struct.h">
+      <Filter>Src\Engine\Core</Filter>
     </ClInclude>
-    <ClInclude Include="sunflower.h">
-      <Filter>project\plant</Filter>
+    <ClInclude Include="Src\Engine\Core\World.h">
+      <Filter>Src\Engine\Core</Filter>
     </ClInclude>
-    <ClInclude Include="gameSun.h">
-      <Filter>project\sun</Filter>
+    <ClInclude Include="Src\Engine\Object\Controller.h">
+      <Filter>Src\Engine\Object</Filter>
     </ClInclude>
-    <ClInclude Include="BattleUI.h">
-      <Filter>project</Filter>
+    <ClInclude Include="Src\Engine\Object\DefaultLevel.h">
+      <Filter>Src\Engine\Object</Filter>
     </ClInclude>
-    <ClInclude Include="SeedUI.h">
-      <Filter>project</Filter>
+    <ClInclude Include="Src\Engine\Object\Object.h">
+      <Filter>Src\Engine\Object</Filter>
     </ClInclude>
-    <ClInclude Include="Menu.h">
-      <Filter>project\level</Filter>
+    <ClInclude Include="Src\Engine\Object\Sprite.h">
+      <Filter>Src\Engine\Object</Filter>
     </ClInclude>
-    <ClInclude Include="ResourceManager.h">
-      <Filter>Engine\Tools</Filter>
+    <ClInclude Include="Src\Engine\Tools\AudioManager.h">
+      <Filter>Src\Engine\Tools</Filter>
     </ClInclude>
-    <ClInclude Include="LevelManager.h">
-      <Filter>Engine\Tools</Filter>
+    <ClInclude Include="Src\Engine\Tools\ColliderManager.h">
+      <Filter>Src\Engine\Tools</Filter>
     </ClInclude>
-    <ClInclude Include="FileManager.h">
-      <Filter>Engine\Tools</Filter>
+    <ClInclude Include="Src\Engine\Tools\CondiEdge.h">
+      <Filter>Src\Engine\Tools</Filter>
     </ClInclude>
-    <ClInclude Include="AudioManager.h">
-      <Filter>Engine\Tools</Filter>
+    <ClInclude Include="Src\Engine\Tools\Configurator.h">
+      <Filter>Src\Engine\Tools</Filter>
     </ClInclude>
-    <ClInclude Include="Delegate.h">
-      <Filter>Engine\Tools</Filter>
+    <ClInclude Include="Src\Engine\Tools\Delegate.h">
+      <Filter>Src\Engine\Tools</Filter>
     </ClInclude>
-    <ClInclude Include="ColliderManager.h">
-      <Filter>Engine\Tools</Filter>
+    <ClInclude Include="Src\Engine\Tools\FileManager.h">
+      <Filter>Src\Engine\Tools</Filter>
     </ClInclude>
-    <ClInclude Include="RainProducer.h">
-      <Filter>project\rain</Filter>
+    <ClInclude Include="Src\Engine\Tools\FrameRateConfig.h">
+      <Filter>Src\Engine\Tools</Filter>
     </ClInclude>
-    <ClInclude Include="Animated.h">
-      <Filter>project</Filter>
+    <ClInclude Include="Src\Engine\Tools\GameStatics.h">
+      <Filter>Src\Engine\Tools</Filter>
     </ClInclude>
-    <ClInclude Include="CoreMinimal.h">
-      <Filter>Engine\Core</Filter>
+    <ClInclude Include="Src\Engine\Tools\LevelManager.h">
+      <Filter>Src\Engine\Tools</Filter>
     </ClInclude>
-    <ClInclude Include="Log.h">
-      <Filter>Engine\Tools</Filter>
+    <ClInclude Include="Src\Engine\Tools\Log.h">
+      <Filter>Src\Engine\Tools</Filter>
     </ClInclude>
-    <ClInclude Include="Configurator.h">
-      <Filter>Engine\Tools</Filter>
+    <ClInclude Include="Src\Engine\Tools\Perlin.h">
+      <Filter>Src\Engine\Tools</Filter>
     </ClInclude>
-    <ClInclude Include="Perlin.h">
-      <Filter>Engine\Tools</Filter>
+    <ClInclude Include="Src\Engine\Tools\ResourceManager.h">
+      <Filter>Src\Engine\Tools</Filter>
     </ClInclude>
-    <ClInclude Include="Macro.h">
-      <Filter>Engine\Core</Filter>
+    <ClInclude Include="Src\Engine\Tools\Timer.h">
+      <Filter>Src\Engine\Tools</Filter>
     </ClInclude>
-    <ClInclude Include="Struct.h">
-      <Filter>Engine\Core</Filter>
+    <ClInclude Include="Src\Engine\Tools\VisualInterface.h">
+      <Filter>Src\Engine\Tools</Filter>
     </ClInclude>
-    <ClInclude Include="AudioPlayer.h">
-      <Filter>Engine\Component</Filter>
+    <ClInclude Include="Src\Engine\Tools\ZHN_Math.h">
+      <Filter>Src\Engine\Tools</Filter>
     </ClInclude>
-    <ClInclude Include="Camera.h">
-      <Filter>Engine\Component</Filter>
+    <ClInclude Include="Src\Engine\Ui\UserInterface.h">
+      <Filter>Src\Engine\Ui</Filter>
     </ClInclude>
-    <ClInclude Include="Collider.h">
-      <Filter>Engine\Component</Filter>
+    <ClInclude Include="Src\Engine\Ui\widgets.h">
+      <Filter>Src\Engine\Ui</Filter>
     </ClInclude>
-    <ClInclude Include="InputComponent.h">
-      <Filter>Engine\Component</Filter>
+    <ClInclude Include="Src\Project\Base\BaseBullets.h">
+      <Filter>Src\Project\Base</Filter>
     </ClInclude>
-    <ClInclude Include="VisualInterface.h">
-      <Filter>Engine\Tools</Filter>
+    <ClInclude Include="Src\Project\Base\BasePlant.h">
+      <Filter>Src\Project\Base</Filter>
     </ClInclude>
-    <ClInclude Include="UserInterface.h">
-      <Filter>Engine\UI</Filter>
+    <ClInclude Include="Src\Project\Base\BaseZomble.h">
+      <Filter>Src\Project\Base</Filter>
     </ClInclude>
-    <ClInclude Include="widgets.h">
-      <Filter>Engine\UI</Filter>
+    <ClInclude Include="Src\Project\Level\BattleController.h">
+      <Filter>Src\Project\Level</Filter>
     </ClInclude>
-    <ClInclude Include="FSM.h">
-      <Filter>Engine\Component</Filter>
+    <ClInclude Include="Src\Project\Level\BattleLevel.h">
+      <Filter>Src\Project\Level</Filter>
     </ClInclude>
-    <ClInclude Include="SpriteRenderer.h">
-      <Filter>Engine\Component</Filter>
+    <ClInclude Include="Src\Project\Level\Menu.h">
+      <Filter>Src\Project\Level</Filter>
     </ClInclude>
-    <ClInclude Include="RigidBody.h">
-      <Filter>Engine\Component</Filter>
+    <ClInclude Include="Src\Project\Object\Animated.h">
+      <Filter>Src\Project\Object</Filter>
     </ClInclude>
-    <ClInclude Include="Particle.h">
-      <Filter>Engine\Component</Filter>
+    <ClInclude Include="Src\Project\Object\Character.h">
+      <Filter>Src\Project\Object</Filter>
     </ClInclude>
-    <ClInclude Include="Animator.h">
-      <Filter>Engine\Component</Filter>
+    <ClInclude Include="Src\Project\Object\NewStatus.h">
+      <Filter>Src\Project\Object</Filter>
     </ClInclude>
-    <ClInclude Include="Sprite.h">
-      <Filter>Engine\Object</Filter>
+    <ClInclude Include="Src\Project\Object\NormalZomble.h">
+      <Filter>Src\Project\Object</Filter>
     </ClInclude>
-    <ClInclude Include="Controller.h">
-      <Filter>Engine\Object</Filter>
+    <ClInclude Include="Src\Project\Object\PeaShooter.h">
+      <Filter>Src\Project\Object</Filter>
     </ClInclude>
-    <ClInclude Include="Component.h">
-      <Filter>Engine\Component</Filter>
+    <ClInclude Include="Src\Project\Object\enemy.h">
+      <Filter>Src\Project\Object</Filter>
     </ClInclude>
-    <ClInclude Include="SceneComponent.h">
-      <Filter>Engine\Component</Filter>
+    <ClInclude Include="Src\Project\Object\pea.h">
+      <Filter>Src\Project\Object</Filter>
     </ClInclude>
-    <ClInclude Include="Object.h">
-      <Filter>Engine\Object</Filter>
+    <ClInclude Include="Src\Project\Object\plateform.h">
+      <Filter>Src\Project\Object</Filter>
     </ClInclude>
-    <ClInclude Include="World.h">
-      <Filter>Engine\Core</Filter>
+    <ClInclude Include="Src\Project\Object\zomblestatus.h">
+      <Filter>Src\Project\Object</Filter>
     </ClInclude>
-    <ClInclude Include="CondiEdge.h">
-      <Filter>Engine\Tools</Filter>
+    <ClInclude Include="Src\Project\Particle\RainProducer.h">
+      <Filter>Src\Project\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Project\Particle\particle_smoke.h">
+      <Filter>Src\Project\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Project\Particle\particle_test.h">
+      <Filter>Src\Project\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Project\Sun\gameSun.h">
+      <Filter>Src\Project\Sun</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Project\Sun\sun.h">
+      <Filter>Src\Project\Sun</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Project\Sun\sunflower.h">
+      <Filter>Src\Project\Sun</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Project\Ui\BattleUI.h">
+      <Filter>Src\Project\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Project\Ui\SeedUI.h">
+      <Filter>Src\Project\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ZHNpch.h">
+      <Filter>Src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BattleController.cpp">
-      <Filter>project</Filter>
+    <ClCompile Include="Src\Engine\Component\Animator.cpp">
+      <Filter>Src\Engine\Component</Filter>
     </ClCompile>
-    <ClCompile Include="Math.cpp">
-      <Filter>Engine\Tools</Filter>
+    <ClCompile Include="Src\Engine\Component\AudioPlayer.cpp">
+      <Filter>Src\Engine\Component</Filter>
     </ClCompile>
-    <ClCompile Include="GameStatics.cpp">
-      <Filter>Engine\Tools</Filter>
+    <ClCompile Include="Src\Engine\Component\Camera.cpp">
+      <Filter>Src\Engine\Component</Filter>
     </ClCompile>
-    <ClCompile Include="NewStatus.h">
-      <Filter>project</Filter>
+    <ClCompile Include="Src\Engine\Component\Collider.cpp">
+      <Filter>Src\Engine\Component</Filter>
     </ClCompile>
-    <ClCompile Include="BasePlant.cpp">
-      <Filter>project\base</Filter>
+    <ClCompile Include="Src\Engine\Component\Component.cpp">
+      <Filter>Src\Engine\Component</Filter>
     </ClCompile>
-    <ClCompile Include="BaseBullets.cpp">
-      <Filter>project\base</Filter>
+    <ClCompile Include="Src\Engine\Component\FSM.cpp">
+      <Filter>Src\Engine\Component</Filter>
     </ClCompile>
-    <ClCompile Include="PeaShooter.cpp">
-      <Filter>project\plant</Filter>
+    <ClCompile Include="Src\Engine\Component\InputComponent.cpp">
+      <Filter>Src\Engine\Component</Filter>
     </ClCompile>
-    <ClCompile Include="pea.cpp">
-      <Filter>project\pea</Filter>
+    <ClCompile Include="Src\Engine\Component\Particle.cpp">
+      <Filter>Src\Engine\Component</Filter>
     </ClCompile>
-    <ClCompile Include="BaseZomble.cpp">
-      <Filter>project\base</Filter>
+    <ClCompile Include="Src\Engine\Component\RigidBody.cpp">
+      <Filter>Src\Engine\Component</Filter>
     </ClCompile>
-    <ClCompile Include="BattleLevel.cpp">
-      <Filter>project\level</Filter>
+    <ClCompile Include="Src\Engine\Component\SceneComponent.cpp">
+      <Filter>Src\Engine\Component</Filter>
     </ClCompile>
-    <ClCompile Include="NormalZomble.cpp">
-      <Filter>project\zomble</Filter>
+    <ClCompile Include="Src\Engine\Component\SpriteRenderer.cpp">
+      <Filter>Src\Engine\Component</Filter>
     </ClCompile>
-    <ClCompile Include="sunflower.cpp">
-      <Filter>project\plant</Filter>
+    <ClCompile Include="Src\Engine\Core\Signal.cpp">
+      <Filter>Src\Engine\Core</Filter>
     </ClCompile>
-    <ClCompile Include="gameSun.cpp">
-      <Filter>project\sun</Filter>
+    <ClCompile Include="Src\Engine\Core\World.cpp">
+      <Filter>Src\Engine\Core</Filter>
     </ClCompile>
-    <ClCompile Include="BattleUI.cpp">
-      <Filter>project</Filter>
+    <ClCompile Include="Src\Engine\Core\game.cpp">
+      <Filter>Src\Engine\Core</Filter>
     </ClCompile>
-    <ClCompile Include="SeedUI.cpp">
-      <Filter>project</Filter>
+    <ClCompile Include="Src\Engine\Object\Controller.cpp">
+      <Filter>Src\Engine\Object</Filter>
     </ClCompile>
-    <ClCompile Include="Menu.cpp">
-      <Filter>project\level</Filter>
+    <ClCompile Include="Src\Engine\Object\DefaultLevel.cpp">
+      <Filter>Src\Engine\Object</Filter>
     </ClCompile>
-    <ClCompile Include="ResourceManager.cpp">
-      <Filter>Engine\Tools</Filter>
+    <ClCompile Include="Src\Engine\Object\Object.cpp">
+      <Filter>Src\Engine\Object</Filter>
     </ClCompile>
-    <ClCompile Include="LevelManager.cpp">
-      <Filter>Engine\Tools</Filter>
+    <ClCompile Include="Src\Engine\Object\Sprite.cpp">
+      <Filter>Src\Engine\Object</Filter>
     </ClCompile>
-    <ClCompile Include="FileManager.cpp">
-      <Filter>Engine\Tools</Filter>
+    <ClCompile Include="Src\Engine\Tools\AudioManager.cpp">
+      <Filter>Src\Engine\Tools</Filter>
     </ClCompile>
-    <ClCompile Include="AudioManager.cpp">
-      <Filter>Engine\Tools</Filter>
+    <ClCompile Include="Src\Engine\Tools\ColliderManager.cpp">
+      <Filter>Src\Engine\Tools</Filter>
     </ClCompile>
-    <ClCompile Include="ColliderManager.cpp">
-      <Filter>Engine\Tools</Filter>
+    <ClCompile Include="Src\Engine\Tools\CondiEdge.cpp">
+      <Filter>Src\Engine\Tools</Filter>
     </ClCompile>
-    <ClCompile Include="RainProducer.cpp">
-      <Filter>project\rain</Filter>
+    <ClCompile Include="Src\Engine\Tools\Configurator.cpp">
+      <Filter>Src\Engine\Tools</Filter>
     </ClCompile>
-    <ClCompile Include="Animated.cpp">
-      <Filter>project</Filter>
+    <ClCompile Include="Src\Engine\Tools\FileManager.cpp">
+      <Filter>Src\Engine\Tools</Filter>
     </ClCompile>
-    <ClCompile Include="game.cpp">
-      <Filter>Engine\Core</Filter>
+    <ClCompile Include="Src\Engine\Tools\FrameRateConfig.cpp">
+      <Filter>Src\Engine\Tools</Filter>
     </ClCompile>
-    <ClCompile Include="Log.cpp">
-      <Filter>Engine\Tools</Filter>
+    <ClCompile Include="Src\Engine\Tools\GameStatics.cpp">
+      <Filter>Src\Engine\Tools</Filter>
     </ClCompile>
-    <ClCompile Include="Configurator.cpp">
-      <Filter>Engine\Tools</Filter>
+    <ClCompile Include="Src\Engine\Tools\LevelManager.cpp">
+      <Filter>Src\Engine\Tools</Filter>
     </ClCompile>
-    <ClCompile Include="Animator.cpp">
-      <Filter>Engine\Component</Filter>
+    <ClCompile Include="Src\Engine\Tools\Log.cpp">
+      <Filter>Src\Engine\Tools</Filter>
     </ClCompile>
-    <ClCompile Include="AudioPlayer.cpp">
-      <Filter>Engine\Component</Filter>
+    <ClCompile Include="Src\Engine\Tools\ResourceManager.cpp">
+      <Filter>Src\Engine\Tools</Filter>
     </ClCompile>
-    <ClCompile Include="Collider.cpp">
-      <Filter>Engine\Component</Filter>
+    <ClCompile Include="Src\Engine\Tools\VisualInterface.cpp">
+      <Filter>Src\Engine\Tools</Filter>
     </ClCompile>
-    <ClCompile Include="Camera.cpp">
-      <Filter>Engine\Component</Filter>
+    <ClCompile Include="Src\Engine\Tools\ZHN_Math.cpp">
+      <Filter>Src\Engine\Tools</Filter>
     </ClCompile>
-    <ClCompile Include="Particle.cpp">
-      <Filter>Engine\Component</Filter>
+    <ClCompile Include="Src\Engine\Ui\UserInterface.cpp">
+      <Filter>Src\Engine\Ui</Filter>
     </ClCompile>
-    <ClCompile Include="RigidBody.cpp">
-      <Filter>Engine\Component</Filter>
+    <ClCompile Include="Src\Engine\Ui\widgets.cpp">
+      <Filter>Src\Engine\Ui</Filter>
     </ClCompile>
-    <ClCompile Include="SpriteRenderer.cpp">
-      <Filter>Engine\Component</Filter>
+    <ClCompile Include="Src\Project\Base\BaseBullets.cpp">
+      <Filter>Src\Project\Base</Filter>
     </ClCompile>
-    <ClCompile Include="InputComponent.cpp">
-      <Filter>Engine\Component</Filter>
+    <ClCompile Include="Src\Project\Base\BasePlant.cpp">
+      <Filter>Src\Project\Base</Filter>
     </ClCompile>
-    <ClCompile Include="VisualInterface.cpp">
-      <Filter>Engine\Tools</Filter>
+    <ClCompile Include="Src\Project\Base\BaseZomble.cpp">
+      <Filter>Src\Project\Base</Filter>
     </ClCompile>
-    <ClCompile Include="widgets.cpp">
-      <Filter>Engine\UI</Filter>
+    <ClCompile Include="Src\Project\Level\BattleController.cpp">
+      <Filter>Src\Project\Level</Filter>
     </ClCompile>
-    <ClCompile Include="UserInterface.cpp">
-      <Filter>Engine\UI</Filter>
+    <ClCompile Include="Src\Project\Level\BattleLevel.cpp">
+      <Filter>Src\Project\Level</Filter>
     </ClCompile>
-    <ClCompile Include="FSM.cpp">
-      <Filter>Engine\Component</Filter>
+    <ClCompile Include="Src\Project\Level\Menu.cpp">
+      <Filter>Src\Project\Level</Filter>
     </ClCompile>
-    <ClCompile Include="Sprite.cpp">
-      <Filter>Engine\Object</Filter>
+    <ClCompile Include="Src\Project\Object\Animated.cpp">
+      <Filter>Src\Project\Object</Filter>
     </ClCompile>
-    <ClCompile Include="Controller.cpp">
-      <Filter>Engine\Object</Filter>
+    <ClCompile Include="Src\Project\Object\Character.cpp">
+      <Filter>Src\Project\Object</Filter>
     </ClCompile>
-    <ClCompile Include="Component.cpp">
-      <Filter>Engine\Component</Filter>
+    <ClCompile Include="Src\Project\Object\NormalZomble.cpp">
+      <Filter>Src\Project\Object</Filter>
     </ClCompile>
-    <ClCompile Include="SceneComponent.cpp">
-      <Filter>Engine\Component</Filter>
+    <ClCompile Include="Src\Project\Object\PeaShooter.cpp">
+      <Filter>Src\Project\Object</Filter>
     </ClCompile>
-    <ClCompile Include="Object.cpp">
-      <Filter>Engine\Object</Filter>
+    <ClCompile Include="Src\Project\Object\enemy.cpp">
+      <Filter>Src\Project\Object</Filter>
     </ClCompile>
-    <ClCompile Include="World.cpp">
-      <Filter>Engine\Core</Filter>
+    <ClCompile Include="Src\Project\Object\pea.cpp">
+      <Filter>Src\Project\Object</Filter>
     </ClCompile>
-    <ClCompile Include="CondiEdge.cpp">
-      <Filter>Engine\Tools</Filter>
+    <ClCompile Include="Src\Project\Particle\RainProducer.cpp">
+      <Filter>Src\Project\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Project\Particle\particle_smoke.cpp">
+      <Filter>Src\Project\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Project\Particle\particle_test.cpp">
+      <Filter>Src\Project\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Project\Sun\gameSun.cpp">
+      <Filter>Src\Project\Sun</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Project\Sun\sunflower.cpp">
+      <Filter>Src\Project\Sun</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Project\UIDesigner.cpp">
+      <Filter>Src\Project</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Project\Ui\BattleUI.cpp">
+      <Filter>Src\Project\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Project\Ui\SeedUI.cpp">
+      <Filter>Src\Project\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ZHNpch.cpp">
+      <Filter>Src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Configurator.cfg">
-      <Filter>Engine\Cfg</Filter>
+    <None Include="Src\Engine\Cfg\Configurator.cfg">
+      <Filter>Src\Engine\Cfg</Filter>
     </None>
+    <None Include="plugin\GLFW\CMakeLists.txt">
+      <Filter>plugin\GLFW</Filter>
+    </None>
+    <None Include="plugin\GLFW\docs\CMakeLists.txt">
+      <Filter>plugin\GLFW\docs</Filter>
+    </None>
+    <None Include="plugin\GLFW\examples\CMakeLists.txt">
+      <Filter>plugin\GLFW\examples</Filter>
+    </None>
+    <None Include="plugin\GLFW\src\CMakeLists.txt">
+      <Filter>plugin\GLFW\src</Filter>
+    </None>
+    <None Include="plugin\GLFW\tests\CMakeLists.txt">
+      <Filter>plugin\GLFW\tests</Filter>
+    </None>
+    <None Include="plugin\imgui\LICENSE.txt">
+      <Filter>plugin\imgui</Filter>
+    </None>
+    <None Include="plugin\imgui\docs\CHANGELOG.txt">
+      <Filter>plugin\imgui\docs</Filter>
+    </None>
+    <None Include="plugin\imgui\docs\TODO.txt">
+      <Filter>plugin\imgui\docs</Filter>
+    </None>
+    <None Include="plugin\imgui\examples\README.txt">
+      <Filter>plugin\imgui\examples</Filter>
+    </None>
+    <None Include="plugin\imgui\examples\example_android_opengl3\CMakeLists.txt">
+      <Filter>plugin\imgui\examples\example_android_opengl3</Filter>
+    </None>
+    <None Include="plugin\imgui\examples\example_glfw_vulkan\CMakeLists.txt">
+      <Filter>plugin\imgui\examples\example_glfw_vulkan</Filter>
+    </None>
+    <None Include="plugin\imgui\examples\libs\glfw\COPYING.txt">
+      <Filter>plugin\imgui\examples\libs\glfw</Filter>
+    </None>
+    <None Include="plugin\imgui\examples\libs\usynergy\README.txt">
+      <Filter>plugin\imgui\examples\libs\usynergy</Filter>
+    </None>
+    <None Include="plugin\imgui\misc\README.txt">
+      <Filter>plugin\imgui\misc</Filter>
+    </None>
+    <None Include="plugin\imgui\misc\cpp\README.txt">
+      <Filter>plugin\imgui\misc\cpp</Filter>
+    </None>
+    <None Include="plugin\imgui\misc\debuggers\README.txt">
+      <Filter>plugin\imgui\misc\debuggers</Filter>
+    </None>
+    <None Include="plugin\spdlog\CMakeLists.txt">
+      <Filter>plugin\spdlog</Filter>
+    </None>
+    <None Include="plugin\spdlog\bench\CMakeLists.txt">
+      <Filter>plugin\spdlog\bench</Filter>
+    </None>
+    <None Include="plugin\spdlog\example\CMakeLists.txt">
+      <Filter>plugin\spdlog\example</Filter>
+    </None>
+    <None Include="plugin\spdlog\tests\CMakeLists.txt">
+      <Filter>plugin\spdlog\tests</Filter>
+    </None>
+    <None Include="更新日志.txt" />
   </ItemGroup>
 </Project>

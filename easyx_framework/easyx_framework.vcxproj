@@ -1,14 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Debug|Win32">
-      <Configuration>Debug</Configuration>
-      <Platform>Win32</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|Win32">
-      <Configuration>Release</Configuration>
-      <Platform>Win32</Platform>
-    </ProjectConfiguration>
     <ProjectConfiguration Include="Debug|x64">
       <Configuration>Debug</Configuration>
       <Platform>x64</Platform>
@@ -17,52 +9,39 @@
       <Configuration>Release</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
+    <ProjectConfiguration Include="Dist|x64">
+      <Configuration>Dist</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{9C862215-0812-90D9-1123-13CE7D2DECD9}</ProjectGuid>
+    <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{9fa98c8d-db4b-4171-979b-5cd9ce5dff71}</ProjectGuid>
-    <RootNamespace>esayxframewoek</RootNamespace>
+    <RootNamespace>easyx_framework</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>esayx_framework</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
-    <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
-    <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
-    <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
-    <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dist|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
-  </ImportGroup>
-  <ImportGroup Label="Shared">
-  </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -70,169 +49,253 @@
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Dist|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
-    </ClCompile>
-    <Link>
-      <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-    </Link>
-  </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
-      <IntrinsicFunctions>true</IntrinsicFunctions>
-      <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
-    </ClCompile>
-    <Link>
-      <SubSystem>Console</SubSystem>
-      <EnableCOMDATFolding>true</EnableCOMDATFolding>
-      <OptimizeReferences>true</OptimizeReferences>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-    </Link>
-  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)..\bin\Debug-windows-x86_64\easyx_framework\</OutDir>
+    <IntDir>$(ProjectDir)..\bin-int\Debug-windows-x86_64\easyx_framework\</IntDir>
+    <TargetName>easyx_framework</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)..\bin\Release-windows-x86_64\easyx_framework\</OutDir>
+    <IntDir>$(ProjectDir)..\bin-int\Release-windows-x86_64\easyx_framework\</IntDir>
+    <TargetName>easyx_framework</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dist|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)..\bin\Dist-windows-x86_64\easyx_framework\</OutDir>
+    <IntDir>$(ProjectDir)..\bin-int\Dist-windows-x86_64\easyx_framework\</IntDir>
+    <TargetName>easyx_framework</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ZHNpch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>ZHN_DEBUG;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\easyx_framework;;Src;;Src\Project;;Src\Engine;;Src\Engine\Component;;Src\Engine\Core;;Src\Engine\Object;;Src\Engine\Tools;;Src\Engine\Ui;;Src\Project\Base;;Src\Project\Level;;Src\Project\Object;;Src\Project\Particle;;Src\Project\Sun;;Src\Project\Ui;;plugin\spdlog\include;;plugin\GLFW\include;plugin\Glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <ExternalWarningLevel>Level3</ExternalWarningLevel>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <ProjectReference>
+    </ProjectReference>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ZHNpch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>ZHN_RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\easyx_framework;;Src;;Src\Project;;Src\Engine;;Src\Engine\Component;;Src\Engine\Core;;Src\Engine\Object;;Src\Engine\Tools;;Src\Engine\Ui;;Src\Project\Base;;Src\Project\Level;;Src\Project\Object;;Src\Project\Particle;;Src\Project\Sun;;Src\Project\Ui;;plugin\spdlog\include;;plugin\GLFW\include;plugin\Glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <ExternalWarningLevel>Level3</ExternalWarningLevel>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <ProjectReference>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Dist|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ZHNpch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>ZHN_DIST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\easyx_framework;;Src;;Src\Project;;Src\Engine;;Src\Engine\Component;;Src\Engine\Core;;Src\Engine\Object;;Src\Engine\Tools;;Src\Engine\Ui;;Src\Project\Base;;Src\Project\Level;;Src\Project\Object;;Src\Project\Particle;;Src\Project\Sun;;Src\Project\Ui;;plugin\spdlog\include;;plugin\GLFW\include;plugin\Glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <ExternalWarningLevel>Level3</ExternalWarningLevel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ProjectReference>
+    </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="CondiEdge.h" />
-    <ClInclude Include="Animated.h" />
-    <ClInclude Include="Animator.h" />
-    <ClInclude Include="AudioManager.h" />
-    <ClInclude Include="AudioPlayer.h" />
-    <ClInclude Include="BasePlant.h" />
-    <ClInclude Include="BaseZomble.h" />
-    <ClInclude Include="BattleController.h" />
-    <ClInclude Include="BattleLevel.h" />
-    <ClInclude Include="BaseBullets.h" />
-    <ClInclude Include="BattleUI.h" />
-    <ClInclude Include="Camera.h" />
-    <ClInclude Include="Collider.h" />
-    <ClInclude Include="ColliderManager.h" />
-    <ClInclude Include="Component.h" />
-    <ClInclude Include="Configurator.h" />
-    <ClInclude Include="Controller.h" />
-    <ClInclude Include="CoreMinimal.h" />
-    <ClInclude Include="Delegate.h" />
-    <ClInclude Include="FileManager.h" />
-    <ClInclude Include="GameStatics.h" />
-    <ClInclude Include="gameSun.h" />
-    <ClInclude Include="InputComponent.h" />
-    <ClInclude Include="LevelManager.h" />
-    <ClInclude Include="Log.h" />
-    <ClInclude Include="Macro.h" />
-    <ClInclude Include="Math.h" />
-    <ClInclude Include="Menu.h" />
-    <ClInclude Include="NormalZomble.h" />
-    <ClInclude Include="Object.h" />
-    <ClInclude Include="Particle.h" />
-    <ClInclude Include="pea.h" />
-    <ClInclude Include="PeaShooter.h" />
-    <ClInclude Include="Perlin.h" />
-    <ClInclude Include="plateform.h" />
-    <ClInclude Include="RainProducer.h" />
-    <ClInclude Include="ResourceManager.h" />
-    <ClInclude Include="RigidBody.h" />
-    <ClInclude Include="SceneComponent.h" />
-    <ClInclude Include="SeedUI.h" />
-    <ClInclude Include="Sprite.h" />
-    <ClInclude Include="SpriteRenderer.h" />
-    <ClInclude Include="FSM.h" />
-    <ClInclude Include="Struct.h" />
-    <ClInclude Include="sun.h" />
-    <ClInclude Include="sunflower.h" />
-    <ClInclude Include="TestObject.h" />
-    <ClInclude Include="Timer.h" />
-    <ClInclude Include="UserInterface.h" />
-    <ClInclude Include="VisualInterface.h" />
-    <ClInclude Include="widgets.h" />
-    <ClInclude Include="World.h" />
-    <ClInclude Include="zomblestatus.h" />
+    <ClInclude Include="Src\Engine\Component\Animator.h" />
+    <ClInclude Include="Src\Engine\Component\AudioPlayer.h" />
+    <ClInclude Include="Src\Engine\Component\Camera.h" />
+    <ClInclude Include="Src\Engine\Component\Collider.h" />
+    <ClInclude Include="Src\Engine\Component\Component.h" />
+    <ClInclude Include="Src\Engine\Component\FSM.h" />
+    <ClInclude Include="Src\Engine\Component\InputComponent.h" />
+    <ClInclude Include="Src\Engine\Component\Particle.h" />
+    <ClInclude Include="Src\Engine\Component\RigidBody.h" />
+    <ClInclude Include="Src\Engine\Component\SceneComponent.h" />
+    <ClInclude Include="Src\Engine\Component\SpriteRenderer.h" />
+    <ClInclude Include="Src\Engine\Core\CoreMinimal.h" />
+    <ClInclude Include="Src\Engine\Core\Macro.h" />
+    <ClInclude Include="Src\Engine\Core\Signal.h" />
+    <ClInclude Include="Src\Engine\Core\Struct.h" />
+    <ClInclude Include="Src\Engine\Core\World.h" />
+    <ClInclude Include="Src\Engine\Object\Controller.h" />
+    <ClInclude Include="Src\Engine\Object\DefaultLevel.h" />
+    <ClInclude Include="Src\Engine\Object\Object.h" />
+    <ClInclude Include="Src\Engine\Object\Sprite.h" />
+    <ClInclude Include="Src\Engine\Tools\AudioManager.h" />
+    <ClInclude Include="Src\Engine\Tools\ColliderManager.h" />
+    <ClInclude Include="Src\Engine\Tools\CondiEdge.h" />
+    <ClInclude Include="Src\Engine\Tools\Configurator.h" />
+    <ClInclude Include="Src\Engine\Tools\Delegate.h" />
+    <ClInclude Include="Src\Engine\Tools\FileManager.h" />
+    <ClInclude Include="Src\Engine\Tools\FrameRateConfig.h" />
+    <ClInclude Include="Src\Engine\Tools\GameStatics.h" />
+    <ClInclude Include="Src\Engine\Tools\LevelManager.h" />
+    <ClInclude Include="Src\Engine\Tools\Log.h" />
+    <ClInclude Include="Src\Engine\Tools\Perlin.h" />
+    <ClInclude Include="Src\Engine\Tools\ResourceManager.h" />
+    <ClInclude Include="Src\Engine\Tools\Timer.h" />
+    <ClInclude Include="Src\Engine\Tools\VisualInterface.h" />
+    <ClInclude Include="Src\Engine\Tools\ZHN_Math.h" />
+    <ClInclude Include="Src\Engine\Ui\UserInterface.h" />
+    <ClInclude Include="Src\Engine\Ui\widgets.h" />
+    <ClInclude Include="Src\Project\Base\BaseBullets.h" />
+    <ClInclude Include="Src\Project\Base\BasePlant.h" />
+    <ClInclude Include="Src\Project\Base\BaseZomble.h" />
+    <ClInclude Include="Src\Project\Level\BattleController.h" />
+    <ClInclude Include="Src\Project\Level\BattleLevel.h" />
+    <ClInclude Include="Src\Project\Level\Menu.h" />
+    <ClInclude Include="Src\Project\Object\Animated.h" />
+    <ClInclude Include="Src\Project\Object\Character.h" />
+    <ClInclude Include="Src\Project\Object\NewStatus.h" />
+    <ClInclude Include="Src\Project\Object\NormalZomble.h" />
+    <ClInclude Include="Src\Project\Object\PeaShooter.h" />
+    <ClInclude Include="Src\Project\Object\enemy.h" />
+    <ClInclude Include="Src\Project\Object\pea.h" />
+    <ClInclude Include="Src\Project\Object\plateform.h" />
+    <ClInclude Include="Src\Project\Object\zomblestatus.h" />
+    <ClInclude Include="Src\Project\Particle\RainProducer.h" />
+    <ClInclude Include="Src\Project\Particle\particle_smoke.h" />
+    <ClInclude Include="Src\Project\Particle\particle_test.h" />
+    <ClInclude Include="Src\Project\Sun\gameSun.h" />
+    <ClInclude Include="Src\Project\Sun\sun.h" />
+    <ClInclude Include="Src\Project\Sun\sunflower.h" />
+    <ClInclude Include="Src\Project\Ui\BattleUI.h" />
+    <ClInclude Include="Src\Project\Ui\SeedUI.h" />
+    <ClInclude Include="Src\ZHNpch.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CondiEdge.cpp" />
-    <ClCompile Include="Animated.cpp" />
-    <ClCompile Include="Animator.cpp" />
-    <ClCompile Include="AudioManager.cpp" />
-    <ClCompile Include="AudioPlayer.cpp" />
-    <ClCompile Include="BaseBullets.cpp" />
-    <ClCompile Include="BasePlant.cpp" />
-    <ClCompile Include="BaseZomble.cpp" />
-    <ClCompile Include="BattleController.cpp" />
-    <ClCompile Include="BattleLevel.cpp" />
-    <ClCompile Include="BattleUI.cpp" />
-    <ClCompile Include="Camera.cpp" />
-    <ClCompile Include="Collider.cpp" />
-    <ClCompile Include="ColliderManager.cpp" />
-    <ClCompile Include="Component.cpp" />
-    <ClCompile Include="Configurator.cpp" />
-    <ClCompile Include="Controller.cpp" />
-    <ClCompile Include="FileManager.cpp" />
-    <ClCompile Include="game.cpp" />
-    <ClCompile Include="GameStatics.cpp" />
-    <ClCompile Include="gameSun.cpp" />
-    <ClCompile Include="InputComponent.cpp" />
-    <ClCompile Include="LevelManager.cpp" />
-    <ClCompile Include="Log.cpp" />
-    <ClCompile Include="Math.cpp" />
-    <ClCompile Include="Menu.cpp" />
-    <ClCompile Include="NewStatus.h" />
-    <ClCompile Include="NormalZomble.cpp" />
-    <ClCompile Include="Object.cpp" />
-    <ClCompile Include="Particle.cpp" />
-    <ClCompile Include="pea.cpp" />
-    <ClCompile Include="PeaShooter.cpp" />
-    <ClCompile Include="RainProducer.cpp" />
-    <ClCompile Include="ResourceManager.cpp" />
-    <ClCompile Include="RigidBody.cpp" />
-    <ClCompile Include="SceneComponent.cpp" />
-    <ClCompile Include="SeedUI.cpp" />
-    <ClCompile Include="Sprite.cpp" />
-    <ClCompile Include="SpriteRenderer.cpp" />
-    <ClCompile Include="FSM.cpp" />
-    <ClCompile Include="sunflower.cpp" />
-    <ClCompile Include="UserInterface.cpp" />
-    <ClCompile Include="VisualInterface.cpp" />
-    <ClCompile Include="widgets.cpp" />
-    <ClCompile Include="World.cpp" />
+    <ClCompile Include="Src\Engine\Component\Animator.cpp" />
+    <ClCompile Include="Src\Engine\Component\AudioPlayer.cpp" />
+    <ClCompile Include="Src\Engine\Component\Camera.cpp" />
+    <ClCompile Include="Src\Engine\Component\Collider.cpp" />
+    <ClCompile Include="Src\Engine\Component\Component.cpp" />
+    <ClCompile Include="Src\Engine\Component\FSM.cpp" />
+    <ClCompile Include="Src\Engine\Component\InputComponent.cpp" />
+    <ClCompile Include="Src\Engine\Component\Particle.cpp" />
+    <ClCompile Include="Src\Engine\Component\RigidBody.cpp" />
+    <ClCompile Include="Src\Engine\Component\SceneComponent.cpp" />
+    <ClCompile Include="Src\Engine\Component\SpriteRenderer.cpp" />
+    <ClCompile Include="Src\Engine\Core\Signal.cpp" />
+    <ClCompile Include="Src\Engine\Core\World.cpp" />
+    <ClCompile Include="Src\Engine\Core\game.cpp" />
+    <ClCompile Include="Src\Engine\Object\Controller.cpp" />
+    <ClCompile Include="Src\Engine\Object\DefaultLevel.cpp" />
+    <ClCompile Include="Src\Engine\Object\Object.cpp" />
+    <ClCompile Include="Src\Engine\Object\Sprite.cpp" />
+    <ClCompile Include="Src\Engine\Tools\AudioManager.cpp" />
+    <ClCompile Include="Src\Engine\Tools\ColliderManager.cpp" />
+    <ClCompile Include="Src\Engine\Tools\CondiEdge.cpp" />
+    <ClCompile Include="Src\Engine\Tools\Configurator.cpp" />
+    <ClCompile Include="Src\Engine\Tools\FileManager.cpp" />
+    <ClCompile Include="Src\Engine\Tools\FrameRateConfig.cpp" />
+    <ClCompile Include="Src\Engine\Tools\GameStatics.cpp" />
+    <ClCompile Include="Src\Engine\Tools\LevelManager.cpp" />
+    <ClCompile Include="Src\Engine\Tools\Log.cpp" />
+    <ClCompile Include="Src\Engine\Tools\ResourceManager.cpp" />
+    <ClCompile Include="Src\Engine\Tools\VisualInterface.cpp" />
+    <ClCompile Include="Src\Engine\Tools\ZHN_Math.cpp" />
+    <ClCompile Include="Src\Engine\Ui\UserInterface.cpp" />
+    <ClCompile Include="Src\Engine\Ui\widgets.cpp" />
+    <ClCompile Include="Src\Project\Base\BaseBullets.cpp" />
+    <ClCompile Include="Src\Project\Base\BasePlant.cpp" />
+    <ClCompile Include="Src\Project\Base\BaseZomble.cpp" />
+    <ClCompile Include="Src\Project\Level\BattleController.cpp" />
+    <ClCompile Include="Src\Project\Level\BattleLevel.cpp" />
+    <ClCompile Include="Src\Project\Level\Menu.cpp" />
+    <ClCompile Include="Src\Project\Object\Animated.cpp" />
+    <ClCompile Include="Src\Project\Object\Character.cpp" />
+    <ClCompile Include="Src\Project\Object\NormalZomble.cpp" />
+    <ClCompile Include="Src\Project\Object\PeaShooter.cpp" />
+    <ClCompile Include="Src\Project\Object\enemy.cpp" />
+    <ClCompile Include="Src\Project\Object\pea.cpp" />
+    <ClCompile Include="Src\Project\Particle\RainProducer.cpp" />
+    <ClCompile Include="Src\Project\Particle\particle_smoke.cpp" />
+    <ClCompile Include="Src\Project\Particle\particle_test.cpp" />
+    <ClCompile Include="Src\Project\Sun\gameSun.cpp" />
+    <ClCompile Include="Src\Project\Sun\sunflower.cpp" />
+    <ClCompile Include="Src\Project\UIDesigner.cpp" />
+    <ClCompile Include="Src\Project\Ui\BattleUI.cpp" />
+    <ClCompile Include="Src\Project\Ui\SeedUI.cpp" />
+    <ClCompile Include="Src\ZHNpch.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Configurator.cfg" />
+    <None Include="Src\Engine\Cfg\Configurator.cfg" />
+    <None Include="plugin\GLFW\CMakeLists.txt" />
+    <None Include="plugin\GLFW\docs\CMakeLists.txt" />
+    <None Include="plugin\GLFW\examples\CMakeLists.txt" />
+    <None Include="plugin\GLFW\src\CMakeLists.txt" />
+    <None Include="plugin\GLFW\tests\CMakeLists.txt" />
+    <None Include="plugin\imgui\LICENSE.txt" />
+    <None Include="plugin\imgui\docs\CHANGELOG.txt" />
+    <None Include="plugin\imgui\docs\TODO.txt" />
+    <None Include="plugin\imgui\examples\README.txt" />
+    <None Include="plugin\imgui\examples\example_android_opengl3\CMakeLists.txt" />
+    <None Include="plugin\imgui\examples\example_glfw_vulkan\CMakeLists.txt" />
+    <None Include="plugin\imgui\examples\libs\glfw\COPYING.txt" />
+    <None Include="plugin\imgui\examples\libs\usynergy\README.txt" />
+    <None Include="plugin\imgui\misc\README.txt" />
+    <None Include="plugin\imgui\misc\cpp\README.txt" />
+    <None Include="plugin\imgui\misc\debuggers\README.txt" />
+    <None Include="plugin\spdlog\CMakeLists.txt" />
+    <None Include="plugin\spdlog\bench\CMakeLists.txt" />
+    <None Include="plugin\spdlog\example\CMakeLists.txt" />
+    <None Include="plugin\spdlog\tests\CMakeLists.txt" />
+    <None Include="更新日志.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="plugin\GLFW\GLFW.vcxproj">
+      <Project>{154B857C-0182-860D-AA6E-6C109684020F}</Project>
+    </ProjectReference>
+    <ProjectReference Include="plugin\Glad\Glad.vcxproj">
+      <Project>{BDD6857C-A90D-870D-52FA-6C103E10030F}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

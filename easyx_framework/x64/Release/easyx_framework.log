@@ -1,0 +1,19 @@
+﻿  Menu.cpp
+F:\vc\project\easyx_framework\easyx_framework\Struct.h(75,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“Menu.cpp”)
+  
+F:\vc\project\easyx_framework\easyx_framework\Particle.h(125,49): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“Menu.cpp”)
+  
+F:\vc\project\easyx_framework\easyx_framework\Particle.h(128,52): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“Menu.cpp”)
+  
+F:\vc\project\easyx_framework\easyx_framework\sun.h(94,25): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+  (编译源文件“Menu.cpp”)
+  
+  正在生成代码
+  5 of 6049 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  easyx_framework.vcxproj -> F:\vc\project\easyx_framework\x64\Release\esayx_framework.exe

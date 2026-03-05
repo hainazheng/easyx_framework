@@ -1,0 +1,9 @@
+[submodule "easyx_framework/plugin/spdlog"]
+	path = easyx_framework/plugin/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "easyx_framework/plugin/imgui"]
+	path = easyx_framework/plugin/imgui
+	url = https://github.com/TheCherno/imgui
+[submodule "easyx_framework/plugin/GLFW"]
+	path = easyx_framework/plugin/GLFW
+	url = https://github.com/TheCherno/glfw
