@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # \# Easyx\_framework 
 
 # 基于easyx图形库的2D游戏框架
